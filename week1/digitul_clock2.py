@@ -1,0 +1,9 @@
+sec = int(input())
+hour = sec // 3600 % 23
+minn = sec % 3600 // 60
+min1 = minn // 10
+min2 = minn % 10
+sec = sec % 3600 % 60
+sec1 = sec // 10
+sec2 = sec % 10
+print(hour, ":", min1, min2, ":", sec1, sec2, sep="")
